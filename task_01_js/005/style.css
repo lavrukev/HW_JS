@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h1, input, p {
+	text-align: center;
+}
+p {
+	font-weight: bold;
+	font-size: 25px;
+}
+h3 {
+	margin: 0 60px;
+}
+input {
+	width: 400px;
+	height: 30px;
+	margin: 15px;
+}
+input {
+	left: 465px;
+	position: relative;
+}
+
+button {
+	width: 200px;
+	height: 45px;
+	margin-left: 585px;
+	display: block;
+}
