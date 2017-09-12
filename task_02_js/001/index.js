@@ -11,6 +11,16 @@ outOne.innerHTML = mass;
 //2.    Добавьте в предыдущую программу два элемента input, в которые можно ввести
 // индекс массива и значение. По нажатию “ОК” - массив выводится.
 
+var outTwo = document.getElementById('new2');
+document.getElementById('btn').onclick = functionAdded;
+
+function functionAdded() {
+    var index = document.getElementById('index').value;
+    var meaning = document.getElementById('meaning').value;
+    mass.splice(index, 0, meaning);
+
+    outTwo.innerHTML = mass;
+}
 
 
 
