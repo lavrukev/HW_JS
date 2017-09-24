@@ -50,7 +50,7 @@ document.getElementById('push').onclick = functionPush; //нужно сдела�
 
 function functionPush() { // создаем функцию functionPush
     var inputPush = document.getElementById('inputPush').value; // нужно получить данные с input - создаем переменную, которой присваеваем получить данные с input по id inputPush.
-    mass.push(input); //далее прописываем что нам нужно получить - какой метод используем
+    mass.push(inputPush); //далее прописываем что нам нужно получить - какой метод используем
     outFive.innerHTML = mass; //нужно в html вывести - в переменную outFive показываем что нам нужен innerHTML  далее перезаписать в наш массив (добавить новый индекс масива и его значение)
 }
 
@@ -61,5 +61,5 @@ document.getElementById('unshift').onclick = functionUnshift;
 function functionUnshift() {
     var inputUnshift = document.getElementById('inputUnshift').value;
     mass.unshift(inputUnshift);
-    outSix.innerHTML = mass
+    outSix.innerHTML = mass;
 }
